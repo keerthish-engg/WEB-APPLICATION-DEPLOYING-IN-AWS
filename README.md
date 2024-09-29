@@ -8,19 +8,19 @@ Step to run on AWS
               scp -i "your-key.pem" -r /path/to/local/directory ec2-user@your-ec2-instance-public-dns:/path/on/ec2
 
 Step to run in LINUX:
-    sudo su -
-    yum install -y httpd
-    mkdir temp
-    cd temp
-    exit
-    sudo mv zip file name /root/tmep/
-    sudo su -
-    cd temp
-    unzip zip file name
-    cd complex
-    ls -lrt
-    mv * /var/www/html
-    systemctl enable httpd
-    systemctl start httpd
+    sudo su -,
+    yum install -y httpd,
+    mkdir temp,
+    cd temp,
+    exit,
+    sudo mv zip file name /root/tmep/,
+    sudo su -,
+    cd temp,
+    unzip zip file name,
+    cd complex,
+    ls -lrt,
+    mv * /var/www/html,
+    systemctl enable httpd,
+    systemctl start httpd,
     systemctl status httpd  // Active part should be in running state.
     
